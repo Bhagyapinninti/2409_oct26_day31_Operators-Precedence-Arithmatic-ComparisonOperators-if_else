@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  background-color: grey;
+  border: 5px groove goldenrod;
+  background-image: url(data:image/jpeg;base64,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);
+background-repeat: no-repeat;
+background-size: cover;
+font-size: 1.3rem;
+}
+
+form label {
+  display: inline-block;
+  width: 220px;
+}
+form div {
+  padding: 15px;
+}
+span {
+  display: inline-block;
+}
+button:hover {
+  background-color: lightgoldenrodyellow;
+  border: 2px solid darkcyan;
+  transition: ease(1s);
+  font-size: 1.3rem;
+}
+input:hover {
+  background-color:lightgoldenrodyellow;
+  border: 3px solid darkcyan;
+  transition: ease(1s);
+  font-size: 1.2rem;
+}
+.operators{
+  margin: 20px;
+}
+body{
+  background-image: url(https://img.freepik.com/free-vector/abstract-red-waves-background-dynamic-shapes-composition-vector-illustration_1142-14600.jpg?semt=ais_hybrid);
+background-size: cover;
+background-repeat: no-repeat;
+}
+h1{
+  color: midnightblue;
+}
